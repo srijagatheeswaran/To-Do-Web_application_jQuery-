@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.selected {
+   color: green;
+  }
+.edit{
+    color: blue;
+}
+#selectBtn{
+    padding: 20px;
+}
+form{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+form input{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.btn{
+    height: 30px;
+    padding: 3px 10px !important;
+}
+table{
+    width: 70%!important;
+
+}
+.BtnDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+h1{
+    text-align: center;
+}
+.marked{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0;
+    align-items: center;
+    position: relative;
+}
+.action{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+#removeSelect{
+    align-self:flex-end;
+    margin-right: 10px;
+}
+
